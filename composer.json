@@ -1,0 +1,37 @@
+{
+    "name": "mrprompt/daemon",
+    "description": "Exemplo de daemon em PHP.",
+    "type": "library",
+    "license": "GPL-3.0+",
+    "keywords": ["console", "daemon"], 
+    "authors": [
+        {
+            "name": "Thiago Paes",
+            "email": "mrprompt@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:mrprompt/portabilidade.git",
+            "autoload": {
+                "classmap": ["src/"]
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "php-gtk/entrymask",
+                "version": "1.0",
+                "dist": {
+                    "url": "http://www.php-gtk.com.br/components/artigo/EntryMask.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+	"php" : ">=5.3",
+	"uecode/daemon": "dev-master"
+    }
+}

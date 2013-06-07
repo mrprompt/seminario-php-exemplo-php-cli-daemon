@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "780e7c6a7e5ed81603f771cbb1acd0ff",
+    "packages": [
+        {
+            "name": "uecode/daemon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uecode/daemon.git",
+                "reference": "886767dce480d856b451f99ddd35df6c69f35db7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uecode/daemon/zipball/886767dce480d856b451f99ddd35df6c69f35db7",
+                "reference": "886767dce480d856b451f99ddd35df6c69f35db7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Uecode\\Daemon": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Scherer",
+                    "email": "aequasi@gmail.com",
+                    "homepage": "https://github.com/aequasi",
+                    "role": "developer"
+                }
+            ],
+            "description": "Daemon Class",
+            "homepage": "https://github.com/uecode/daemon",
+            "keywords": [
+                "daemon",
+                "php"
+            ],
+            "time": "2012-12-19 17:16:52"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "uecode/daemon": 20
+    },
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": [
+
+    ]
+}
